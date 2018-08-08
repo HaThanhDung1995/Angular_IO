@@ -1,0 +1,38 @@
+<div class="book">
+        <div class="book-body">
+          <div class="cover">
+            <img [src]="book.cover" alt="">
+            <div class="open-hover-book">
+              <i class="fas fa-book-open"></i>
+            </div>
+          </div>
+      
+          <div class="detail">
+            <h3>{{book.title}}</h3>
+            <p>{{book.author}}</p>
+      
+            <div class="rate">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="desc">
+              {{book.detail}}
+            </div>
+          </div>
+        </div>
+        <div class="book-footer">
+          <div>
+            1.005 lượt xem
+          </div>
+          <div class="like">
+            54 lượt thích
+          </div>
+          <button>
+            Chi tiết
+          </button>
+        </div>
+      </div>
+      

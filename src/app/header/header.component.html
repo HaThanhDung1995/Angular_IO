@@ -1,0 +1,11 @@
+<nav>
+  <h1 class="logo">JTC 
+    <span>BOOK</span>
+  </h1>
+  <div class="search">
+      <input type="search" [(ngModel)]='keyword' (ngModelChange)='search(keyword)'  placeholder="Search book">
+      <i class="fa fa-search"></i>
+      <app-book-search-results *ngIf="keyword" [books]='bookResults'></app-book-search-results>
+  </div>
+  
+</nav>

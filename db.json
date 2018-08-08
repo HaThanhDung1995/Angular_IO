@@ -1,0 +1,72 @@
+{
+  "books": [
+    {
+      "title": "Angular Cơ Bản",
+      "author": "quynhlx",
+      "cover": "https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque omnis soluta sit hic placeat temporibus suscipit veniam quam ex autem!",
+      "categories": [
+        "feature",
+        "hot"
+      ],
+      "filters": [
+        "basic"
+      ]
+    },
+    {
+      "title": "Nodejs Cơ Bản",
+      "author": "quynhlx",
+      "cover": "https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque omnis soluta sit hic placeat temporibus suscipit veniam quam ex autem!",
+      "categories": [
+        "hot",
+        "basic"
+      ],
+      "filters": [
+        "basic",
+        "manga"
+      ]
+    },
+    {
+      "title": "Mongo Cơ Bản",
+      "author": "quynhlx",
+      "cover": "https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque omnis soluta sit hic placeat temporibus suscipit veniam quam ex autem!",
+      "categories": [
+        "hot",
+        "basic"
+      ],
+      "filters": [
+        "basic",
+        "manga"
+      ]
+    },
+    {
+      "title": "Front-End Cơ Bản",
+      "author": "quynhlx",
+      "cover": "https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque omnis soluta sit hic placeat temporibus suscipit veniam quam ex autem!",
+      "categories": [
+        "feature",
+        "basic"
+      ],
+      "filters": [
+        "basic",
+        "manga"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Angular 6",
+      "author": "dung",
+      "cover": "https://spark.adobe.com/images/landing/examples/how-to-book-cover.jpg",
+      "desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque omnis soluta sit hic placeat temporibus suscipit veniam quam ex autem!",
+      "categories": [
+        "feature"
+      ],
+      "filters": [
+        "basic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 2rem 0;
+    position: relative;
+}
+
+jtc-book {
+    display: inline-block;
+}
+
+.header-section {
+    margin: 12px;
+    border-bottom: 1px #70707037 solid;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        margin: 8px 0;
+    }
+    ul {
+        margin: 8px 0;
+        list-style: none;
+        li {
+            display: inline;
+            margin-left: 8px;
+            cursor: pointer;
+        }
+    }
+}
+app-pop-up{
+    position: absolute;
+    top:200px;
+    left:300px;
+    z-index: 1;
+}

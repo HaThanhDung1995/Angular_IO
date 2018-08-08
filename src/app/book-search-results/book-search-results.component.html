@@ -1,0 +1,11 @@
+<div class="search-panel">
+    <div class="book" *ngFor="let book of books">
+      <div class="cover">
+        <img [src]="book.cover" alt="">
+      </div>
+      <div class="detail">
+        <h3>{{book.title}}</h3>
+        <p>{{book.detail}}</p>
+      </div>
+    </div>
+  </div>

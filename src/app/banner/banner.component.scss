@@ -1,0 +1,22 @@
+:host {
+    background: green;
+    width: 100%;
+    display: block;
+    min-height: 300px;
+    display: flex;
+}
+div {
+    border: 3px solid red;
+}
+
+.div1 {
+    flex: 1;
+}
+
+.div2 {
+    flex: 2;
+}
+
+.div3{ 
+    flex: 1
+}

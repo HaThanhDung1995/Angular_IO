@@ -1,0 +1,8 @@
+<form >
+  <input type="text" placeholder="Title" [(ngModel)]="book.title" [value]="book.title">
+  <input type="text" placeholder="Detail" [(ngModel)]="book.detail" [value]="book.detail">
+  <input type="text" placeholder="Author" [(ngModel)]="book.author" [value]="book.author">
+  <input type="text" placeholder="Cover" [(ngModel)]="book.cover" [value]="book.cover">
+
+</form>
+  <button (click)="submitform()">Submit</button>

@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="pop">
+    <button (click)="showpopup()">Click me</button>
+    <app-pop-up *ngIf="data==true"></app-pop-up>
+  </div>
+  <div class="section" *ngFor="let section of sections">
+    <div class="header-section">
+      <h3>{{section.name}}</h3>
+      <ul>
+        <li *ngFor="let filter of section.filters">{{filter}}</li>
+      </ul>
+    </div>
+    <jtc-book [book]="book" *ngFor="let book of section.books"></jtc-book>
+  </div>
+</div>

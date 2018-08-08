@@ -1,0 +1,96 @@
+@import './../../color';
+
+:host {
+  display: block;
+  background: transparent;
+  width: 33.33%;
+}
+.book {
+  display: block;
+  min-width: 300px;
+  background: white;
+  margin: 12px;
+  position: relative;
+  .book-body {
+    padding: 12px;
+    display: flex;
+    margin-bottom: 12px;
+    .cover {
+      .open-hover-book {
+        cursor: pointer;
+        position: absolute;
+        display: none;
+        font-size: 32px;
+        background-color: $primary-color;
+        color: white;
+        padding: 8px;
+        border-radius: 50%;
+        top: 62px;
+        right: 34px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      position: absolute;
+      top: -16px;
+      width: 120px;
+      height: 176px;
+      display: block;
+    }
+    .detail {
+      margin-left: 130px;
+      h3 {
+        margin: 4px 0 8px 0;
+      }
+      p {
+        margin: 0 0 8px 0;
+      }
+      .rate {
+        margin: 0 0 8px 0;
+        i {
+          margin-right: 4px;
+          color: #FFC400;
+        }
+      }
+      .desc {
+        font-size: 12px;
+      }
+    }
+  }
+  .book-footer {
+    padding: 12px;
+    border-top: 1px #70707035 solid;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    button {
+      display: none;
+      position: absolute;
+      padding: 8px 16px;
+      background-color: $primary-color;
+      color: white;
+      right: 0;
+      top: -50%;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    .book-body {
+      .cover {
+        .open-hover-book {
+          display: block;
+        }
+      }
+    }
+    .book-footer {
+      .like {
+        display: none;
+      }
+      button {
+        display: block;
+      }
+    }
+  }
+}

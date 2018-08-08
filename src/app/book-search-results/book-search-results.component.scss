@@ -1,0 +1,18 @@
+:host {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+
+.search-panel {
+    background: white;
+    padding: 1rem;
+}
+.book {
+    display: flex;
+    .cover {
+        img {
+            max-height: 100px;
+        }
+    }
+}

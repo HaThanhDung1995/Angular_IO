@@ -1,0 +1,46 @@
+:host {
+    display: block;
+    width: 310px;
+    background-color: #FAFAFA;
+    .header{
+        padding: 24px;
+        background-color: #616161;
+
+        .avatar {
+            img {
+                height: 56px;
+                border-radius: 50%;
+            }
+            margin-bottom: 15px;
+        }
+        p {
+            color: white;
+        }
+    }
+    
+
+    .navbar-menu {
+        
+        ul {
+            padding: 42px 0;
+            padding-left: 24px;
+            margin: 0;
+            list-style: none;
+            li {
+                margin-bottom: 24px;
+                margin-left: 65px;
+                font-weight: normal;
+                &.menu-main {
+                    font-weight: bold;
+                    i {
+                        font-size: 24px;
+                        margin-right: 36px;
+                    }
+                    margin-bottom: 30px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
